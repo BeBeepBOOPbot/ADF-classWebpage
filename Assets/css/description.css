@@ -1,0 +1,55 @@
+:root {
+    --blue: #007cc2;
+    --green: #c3db33;
+    --black: #000000;
+    --white: #ffffff;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+header  {
+    text-align: center;
+}
+
+header h1  {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+header h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.program-card {
+    background-color: var(--green);
+    width: fit-content;
+    height: 300px;
+    padding: 32px;
+    display: flex;
+    gap: 40px;
+}
+
+.program-card-image {
+    background: var(--blue);
+    height: 100%;
+    width: 250px;
+}
+
+.program-card-text {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 16px;
+}
