@@ -53,3 +53,83 @@ header h3 {
     width: 350px;
     gap: 16px;
 }
+
+.program-card-2 {
+    background: var(--blue);
+    width: fit-content;
+    height: 300px;
+    padding: 32px;
+    display: flex;
+    gap: 40px;
+}
+
+.program-card-image-2 {
+        background: var(--green);
+        height: 100%;
+        width: 250px;
+}
+
+.program-card-text-2 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 16px;
+}
+
+.program-wraper {
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+
+}
+
+.program-card-3 {
+    background-color: var(--green);
+    width: fit-content;
+    height: 300px;
+    padding: 32px;
+    display: flex;
+    gap: 40px;
+}
+
+.program-card-image-3 {
+    background: var(--blue);
+    height: 100%;
+    width: 250px;
+}
+
+.program-card-text-3 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 16px;
+}
+
+.program-card-4 {
+    background-color: var(--green);
+    width: fit-content;
+    height: 300px;
+    padding: 32px;
+    display: flex;
+    gap: 40px;
+}
+
+.program-card-image-4 {
+    background: var(--blue);
+    height: 100%;
+    width: 250px;
+}
+
+.program-card-text-4 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 16px;
+}
+
+.program-wraper-2 {
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+
+}
