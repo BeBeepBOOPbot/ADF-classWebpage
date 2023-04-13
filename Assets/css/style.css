@@ -99,11 +99,13 @@ a:hover {
     gap: 32px;
     align-items: center;
     color: var(--blue);
+    text-align: center;
 }
 
 .header-text p {
     font-size: 2rem;
     font-weight: 600;
+
 }
 
 #header-signup-button {
@@ -126,7 +128,6 @@ a:hover {
 
 footer  {
     background: var(--blue);
-    height: 444px;
     color: var(--white);
 }
 
@@ -174,4 +175,12 @@ footer  {
 
 .footer-links a {
     color: var(--white);
+}
+
+.footer-leagel {
+    text-align: center;
+}
+
+.footer-leagel span {
+    color: transparent;
 }
