@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 :root {
     --blue: #007cc2;
     --green: #c3db33;
@@ -14,9 +13,16 @@
     font-family: 'Inter', sans-serif;
 }
 
-h1
-h2
-h3
+
+h2 {
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+h4  {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
 
 p {
     font-size: 20px;
@@ -34,11 +40,19 @@ a:hover {
     text-decoration: underline 2px;
 }
 
+
+
+
+
+
 .nav-wraper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 3rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 .nav-wraper ul {
@@ -69,13 +83,109 @@ a:hover {
 }
 
 #nav-signup-button:hover {
-    background: var(--white);
+    background: unset;
     color: var(--blue);
     outline: 3px solid var(--blue);
     text-decoration: none;
     transition: .1s;
-=======
-.background {
-	
->>>>>>> Stashed changes
+}
+
+.header-image {
+    background: var(--green);
+    height: 624px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    color: var(--blue);
+    text-align: center;
+}
+
+.header-text p {
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+
+#header-signup-button {
+    background: var(--blue);
+    color: var(--white);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem 2.5rem;
+    border-radius: 4px;
+}
+
+#header-signup-button:hover {
+    background: unset;
+    color: var(--blue);
+    outline: 3px solid var(--blue);
+    text-decoration: none;
+    transition: .1s;
+}
+
+footer  {
+    background: var(--blue);
+    color: var(--white);
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px;
+}
+
+.footer-dacc {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.footer-dacc img {
+    object-fit: contain;
+    object-position: center;
+    height: 3rem;
+    width: max-content;
+}
+
+
+
+
+
+
+.footer-links {
+    display: flex;
+    gap: 64px;
+
+}
+
+.footer-links ul {
+    list-style: none; 
+    display: flex;
+    flex-direction: column;
+    gap: 16px;   
+}
+
+.footer-links h4 {
+    font-size: 1.5rem;
+}
+
+.footer-links a {
+    color: var(--white);
+}
+
+.footer-leagel {
+    text-align: center;
+}
+
+.footer-leagel span {
+    color: transparent;
 }
