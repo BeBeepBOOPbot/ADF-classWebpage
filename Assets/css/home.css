@@ -1,0 +1,19 @@
+.intro-wraper {
+    display: flex;
+    gap: 64px;
+    width: 1472px;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+}
+
+.intro-image {
+    background: violet;
+    object-fit: cover;
+    width: 40%;
+    height: 400px; 
+}
+
+.intro-text {
+    max-width: 60%;
+}
