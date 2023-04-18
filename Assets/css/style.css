@@ -14,8 +14,13 @@
 }
 
 
-h2 {
+h1 {
     font-size: 5rem;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 4rem;
     font-weight: 800;
 }
 
