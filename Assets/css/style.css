@@ -97,6 +97,8 @@ a:hover {
 
 .header-image {
     background: url(../Images/headerbg12.png);
+    background-size: cover;
+    background-position: top;
     height: 624px;
     display: flex;
     justify-content: center;
