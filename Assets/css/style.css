@@ -73,7 +73,7 @@ a:hover {
 }
 
 .nav-wraper a {
-    color: var(--blue);
+    color: var(--white);
     font-weight: 600;
 }
 
@@ -96,7 +96,7 @@ a:hover {
 }
 
 .header-image {
-    background: var(--green);
+    background: url(../Images/headerbg12.png);
     height: 624px;
     display: flex;
     justify-content: center;
@@ -108,7 +108,7 @@ a:hover {
     flex-direction: column;
     gap: 32px;
     align-items: center;
-    color: var(--blue);
+    color: var(--white);
     text-align: center;
 }
 
@@ -119,7 +119,7 @@ a:hover {
 }
 
 #header-signup-button {
-    background: var(--blue);
+    background: var(--green);
     color: var(--white);
     text-decoration: none;
     font-size: 2rem;
@@ -130,8 +130,8 @@ a:hover {
 
 #header-signup-button:hover {
     background: unset;
-    color: var(--blue);
-    outline: 3px solid var(--blue);
+    color: var(--green);
+    outline: 3px solid var(--green);
     text-decoration: none;
     transition: .1s;
 }
