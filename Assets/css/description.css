@@ -14,7 +14,17 @@
 }
 
 p {
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+p2 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+p3 {
+    font-size: 14px;
     font-weight: 500;
 }
 
@@ -33,218 +43,40 @@ header h3 {
 }
 
 .program-card {
-    background-color: var(--green);
-    width: fit-content;
+    background-color: var(--white);
+    width: 700px;
     height: 300px;
     padding: 32px;
     border-radius: 6px;
     display: flex;
     gap: 40px;
+    margin: auto;
 }
 
 .program-card-image {
     background: var(--blue);
     height: 100%;
-    width: 250px;
+    width: 40%;
     border-radius: 7px;
 }
 
 .program-card-text {
     display: flex;
     flex-direction: column;
-    width: 350px;
-    gap: 16px;
-}
-
-.program-card-2 {
-    background: var(--green);
-    width: fit-content;
-    height: 300px;
-    padding: 32px;
-    border-radius: 6px;
-    display: flex;
-    gap: 40px;
-}
-
-.program-card-image-2 {
-        background: var(--blue);
-        height: 100%;
-        width: 250px;
-        border-radius: 6px;
-}
-
-.program-card-text-2 {
-    display: flex;
-    flex-direction: column;
-    width: 350px;
+    width: 60%;
     gap: 16px;
 }
 
 .program-wraper {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    margin: 64px;
+}
+
+#anoying {
+    grid-column: span 2;
+    width: 1000px;
     justify-content: center;
-    gap: 128px;
-
+    margin: auto;
 }
-
-
-.program-card-3 {
-    background-color: var(--green);
-    width: fit-content;
-    height: 300px;
-    padding: 32px;
-    border-radius: 6px;
-    display: flex;
-    gap: 40px;
-}
-
-.program-card-image-3 {
-    background: var(--blue);
-    height: 100%;
-    width: 250px;
-    border-radius: 6px;
-}
-
-.program-card-text-3 {
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    gap: 16px;
-}
-
-.program-card-4 {
-    background-color: var(--green);
-    width: fit-content;
-    height: 300px;
-    padding: 32px;
-    border-radius: 6px;
-    display: flex;
-    gap: 40px;
-}
-
-.program-card-image-4 {
-    background: var(--blue);
-    height: 100%;
-    width: 250px;
-    border-radius: 7px;
-}
-
-.program-card-text-4 {
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    gap: 16px;
-}
-
-.program-wraper-2 {
-    display: flex;
-    justify-content: center;
-    gap: 128px;
-
-}
-
-.program-card-5 {
-    background-color: var(--green);
-    width: fit-content;
-    height: 300px;
-    padding: 32px;
-    border-radius: 6px;
-    display: flex;
-    gap: 40px;
-}
-
-.program-card-image-5 {
-    background: var(--blue);
-    height: 100%;
-    width: 250px;
-    border-radius: 7px;
-}
-
-.program-card-text-5 {
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    gap: 16px;
-}
-
-.program-card-6 {
-    background: var(--green);
-    width: fit-content;
-    height: 300px;
-    padding: 32px;
-    border-radius: 6px;
-    display: flex;
-    gap: 40px;
-}
-
-.program-card-image-6 {
-        background: var(--blue);
-        height: 100%;
-        width: 250px;
-        border-radius: 6px;
-}
-
-.program-card-text-6 {
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    gap: 16px;
-}
-
-.program-wraper-3 {
-    display: flex;
-    justify-content: center;
-    gap: 128px;
-
-}
-
-
-
-.program-card-text a {
-    background: var(--blue);
-    width: max-content;
-    padding: .5rem 1rem;
-    border-radius: 4px;
-    text-decoration: none;
-}
-
-.program-card-text-2 a {
-    background: var(--blue);
-    width: max-content;
-    padding: .5rem 1rem;
-    border-radius: 4px;
-    text-decoration: none;
-}
-
-.program-card-text-3 a {
-    background: var(--blue);
-    width: max-content;
-    padding: .5rem 1rem;
-    border-radius: 4px;
-    text-decoration: none;
-}
-
-.program-card-text-4 a {
-    background: var(--blue);
-    width: max-content;
-    padding: .5rem 1rem;
-    border-radius: 4px;
-    text-decoration: none;
-}
-
-.program-card-text-5 a {
-    background: var(--blue);
-    width: max-content;
-    padding: .5rem 1rem;
-    border-radius: 4px;
-    text-decoration: none;
-}
-
-.program-card-text-6 a {
-    background: var(--blue);
-    width: max-content;
-    padding: .5rem 1rem;
-    border-radius: 4px;
-    text-decoration: none;
-}
-
