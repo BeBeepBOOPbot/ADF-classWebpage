@@ -2,6 +2,7 @@
     --blue: #007cc2;
     --green: #c3db33;
     --black: #000000;
+    --white-bg: #f2f2f2;
     --white: #ffffff;
 
 }
@@ -11,6 +12,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: var(--white-bg);
 }
 
 
@@ -44,11 +49,6 @@ a {
 a:hover {
     text-decoration: underline 2px;
 }
-
-
-
-
-
 
 .nav-wraper {
     display: flex;
@@ -162,11 +162,6 @@ footer  {
     height: 3rem;
     width: max-content;
 }
-
-
-
-
-
 
 .footer-links {
     display: flex;
