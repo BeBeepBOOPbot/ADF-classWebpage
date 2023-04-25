@@ -146,3 +146,21 @@
         grid-template-columns: 1fr;
     }
 }
+
+.rivew-wraper {
+    display: flex;
+    justify-content: center;
+    gap: 280px;
+}
+
+.rivew-card {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 16px;
+    gap: 8px;
+    border-radius: 4px;
+    margin-block: 64px;
+}
+
