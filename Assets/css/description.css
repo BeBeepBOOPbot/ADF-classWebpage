@@ -44,13 +44,21 @@ header h3 {
 
 .program-card {
     background-color: var(--white);
-    width: 700px;
+    maxwidth: 700px;
     height: 300px;
     padding: 32px;
     border-radius: 6px;
     display: flex;
     gap: 40px;
     margin: auto;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.07),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.029),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.012),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.004),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.001),
+    100px 100px 80px rgba(0, 0, 0, -0.001)
+    ;
 }
 
 .program-card-image {
