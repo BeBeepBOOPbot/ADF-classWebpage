@@ -1,10 +1,4 @@
-:root {
-    --blue: #007cc2;
-    --green: #c3db33;
-    --black: #000000;
-    --white: #ffffff;
 
-}
 
 .intro-wraper {
     display: flex;
