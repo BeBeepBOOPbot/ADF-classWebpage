@@ -1,40 +1,18 @@
-.gallery {
+
+section {
     display: grid;
-    grid-template-columns: 50%;
-}
-
-.wrapper_outer {
-    height: 100vh;
-    overflow: hidden;
-
-}
-
-.wrapper{
-    height: 100%;
-    overflow-x: hidden;
-    perspective: 1px;
-}
-.parallax_section{
+    place-items: center;
+    align-content: center;
     min-height: 100vh;
-    padding: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    position: relative;
-    overflow: hidden;
-    transform-style: preserve-3d;
 
 }
-.parallax_bg{
-    position: absolute;
-    left: 0;;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-size: cover;
-    background-position: center center;
-    z-index: -1;
-    min-height: 100%;
-    transform: trandalate3d(0,0,-1px) scale(2);
+
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+
 }
