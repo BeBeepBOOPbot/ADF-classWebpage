@@ -1,11 +1,3 @@
-
-section {
-    display: grid;
-    place-items: center;
-    align-content: center;
-    min-height: 100vh;
-}
-
 .hidden{
     opacity: 0;
     transition: all 2s;
@@ -13,4 +5,23 @@ section {
 
 .show{
     opacity: 1;
+}
+
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr;
+    grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr;
+    max-width: 1472px;
+    margin: auto;
+    margin-block: 128px;
+    gap: 16px;
 }
