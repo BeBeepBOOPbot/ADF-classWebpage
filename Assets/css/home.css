@@ -143,8 +143,9 @@
 
 .rivew-wraper {
     display: flex;
-    justify-content: center;
-    gap: 280px;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1500px;
 }
 
 .rivew-card {
@@ -155,5 +156,23 @@
     padding: 16px;
     gap: 8px;
     border-radius: 4px;
+    margin: 32px;
     margin-block: 64px;
+}
+
+@media (max-width:1000px) {
+    .aaaaa {
+        display: none;
+    }
+}
+
+@media (max-width:670px) {
+    .aaaa {
+        display: none;
+    }
+
+    .rivew-wraper {
+        justify-content: center;
+    }
+
 }
