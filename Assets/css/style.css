@@ -235,3 +235,14 @@ footer  {
 .footer-leagel span {
     color: transparent;
 }
+
+@media (max-width:1000px) {
+    .footer-main {
+        flex-direction: column;
+        gap: 64px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
