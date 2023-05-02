@@ -19,7 +19,7 @@
 .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr;
-    grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr;
+    grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
     max-width: 1472px;
     margin: auto;
     margin-block: 128px;
