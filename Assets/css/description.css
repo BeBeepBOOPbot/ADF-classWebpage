@@ -81,11 +81,3 @@ header h3 {
     gap: 64px;
     margin: 64px;
 }
-
-#Boxes {
-    grid-column: span 2;
-    width: 1000px;
-    justify-content: center;
-    margin: auto;
-}
-

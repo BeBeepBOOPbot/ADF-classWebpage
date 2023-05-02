@@ -152,12 +152,19 @@
     background-color: var(--white);
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: min-content;
     padding: 16px;
     gap: 8px;
     border-radius: 4px;
     margin: 32px;
     margin-block: 64px;
+}
+
+.rivew-card img {
+    width: 256px;
+    height: 256px;
+    border-radius: 4px;
+    object-fit: cover;
 }
 
 @media (max-width:1000px) {
