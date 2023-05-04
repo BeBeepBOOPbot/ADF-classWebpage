@@ -1,20 +1,11 @@
-<svg
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path
-    d="M13.325 3.05011L8.66741 20.4323L10.5993 20.9499L15.2568 3.56775L13.325 3.05011Z"
-    fill="currentColor"
-  />
-  <path
-    d="M7.61197 18.3608L8.97136 16.9124L8.97086 16.8933L3.87657 12.1121L8.66699 7.00798L7.20868 5.63928L1.04956 12.2017L7.61197 18.3608Z"
-    fill="currentColor"
-  />
-  <path
-    d="M16.388 18.3608L15.0286 16.9124L15.0291 16.8933L20.1234 12.1121L15.333 7.00798L16.7913 5.63928L22.9504 12.2017L16.388 18.3608Z"
-    fill="currentColor"
-  />
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M13.3,3.1L8.7,20.4l1.9,0.5l4.7-17.4L13.3,3.1z"/>
+<path class="st0" d="M7.6,18.4L9,16.9l0,0l-5.1-4.8L8.7,7L7.2,5.6L1,12.2L7.6,18.4z"/>
+<path class="st0" d="M16.4,18.4L15,16.9l0,0l5.1-4.8L15.3,7l1.5-1.4l6.2,6.6L16.4,18.4z"/>
 </svg>
