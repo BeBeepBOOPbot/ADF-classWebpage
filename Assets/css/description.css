@@ -44,13 +44,11 @@ header h3 {
 
 .program-card {
     background-color: var(--white);
-    maxwidth: 700px;
-    height: 300px;
-    padding: 32px;
+    max-width: 700px;
+    padding: 24px;
     border-radius: 6px;
     display: flex;
     gap: 40px;
-    margin: auto;
     box-shadow:
     2.8px 2.8px 2.2px rgba(0, 0, 0, 0.07),
     6.7px 6.7px 5.3px rgba(0, 0, 0, 0.029),
@@ -63,8 +61,10 @@ header h3 {
 
 .program-card-image {
     background: var(--blue);
-    height: 100%;
+    height: 272px;
     width: 40%;
+    min-width: 250px;
+    object-fit: cover;
     border-radius: 7px;
 }
 
@@ -73,11 +73,93 @@ header h3 {
     flex-direction: column;
     width: 60%;
     gap: 16px;
+    overflow: hidden;
 }
 
 .program-wraper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: center;
     gap: 64px;
     margin: 64px;
+    grid-column: span 2;    
+}
+
+#Boxes {
+    grid-column: span 2;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+
+
+
+@media (max-width:1500px) {
+    .program-card {
+        flex-direction: column;
+        width: max-content;
+        margin: 0;
+    }
+    
+    .program-card-image {
+        width: 40vw;
+    }
+
+    .program-card-text {
+        width: 40vw;
+
+    }
+
+    #Boxes {
+        width: auto;
+        grid-column: span 2;
+        margin: auto;
+    }
+
+    #Boxes .program-card-text {
+        width: 60vw;
+    }
+
+    #Boxes .program-card-image {
+        width: 60vw;
+    }
+}
+
+@media (max-width:1000px) {
+    .program-wraper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .program-card {
+        flex-direction: column;
+        width: max-content;
+        max-width: unset;
+        margin: 0;
+    }
+    
+    .program-card-image {
+        width: 75vw;
+    }
+
+    .program-card-text {
+        width: 75vw;
+    }
+
+    #Boxes {
+        width: max-content;
+        grid-column: span 1;
+        margin: unset;
+    }
+
+    #Boxes .program-card-text {
+        width: 75vw;
+        word-wrap: break-word;
+    }
+
+    #Boxes .program-card-image {
+        width: 75vw;
+    }
 }

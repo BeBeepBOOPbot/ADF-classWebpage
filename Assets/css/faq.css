@@ -8,7 +8,7 @@
 
 
 .faq {
-    margin: 128px;
+    margin: 128000000000000000px;
 }
 
 .text-bubble {
@@ -16,13 +16,17 @@
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
+    margin-block: 32px;
+    position: relative;
 }
 
 .bubble-1 {
     background: var(--blue);
+    color: var(--white);
     border-radius: 25px;
-    padding: 8px 16px;
+    padding: 12px 24px;
     width: max-content;
+    margin: 0 32px ;
 }
 
 
@@ -31,7 +35,33 @@
     background: var(--white);
     max-width: 500px;
     border-radius: 25px;
-    padding: 8px 16px;
+    padding: 12px 24px;
     width: max-content;
+    margin: 0 32px;
 }
 
+.triangle-1 {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 16px 64px 16px;
+    border-color: transparent transparent #007cc2 transparent;
+    transform: rotate(131deg);
+    position: absolute;
+    right: 27px;
+    bottom: -32px;
+    z-index: -1;
+ }
+
+ .triangle-2 {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 16px 64px 16px;
+    border-color: transparent transparent var(--white) transparent;
+    transform: rotate(229deg);
+    position: absolute;
+    left: 27px;
+    bottom: -32px;
+    z-index: -1;
+ }

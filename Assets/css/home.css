@@ -167,13 +167,13 @@
     object-fit: cover;
 }
 
-@media (max-width:1000px) {
+@media (max-width:1080px) {
     .aaaaa {
         display: none;
     }
 }
 
-@media (max-width:670px) {
+@media (max-width:720px) {
     .aaaa {
         display: none;
     }
